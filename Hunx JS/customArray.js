@@ -84,3 +84,7 @@ console.log(myNewArray.data)
 console.table(myNewArray.deleteByIndex(0))
 console.table(myNewArray.deleteByIndex(3))
 console.log(myNewArray.data)
+
+
+
+//TODO: Solve other array methods as well
