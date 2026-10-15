@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88e2d7e8-2b99-449e-a014-b093dde0420e" name="Changes" comment="Patterns in DSA">
-      <change afterPath="$PROJECT_DIR$/Hunx JS/ex.js" afterDir="false" />
+    <list default="true" id="88e2d7e8-2b99-449e-a014-b093dde0420e" name="Changes" comment="Patterns in DSA&#10;array custom array methods&#10;reverse a string">
+      <change afterPath="$PROJECT_DIR$/problemsPatterns/LL/helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problemsPatterns/LL/ll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problemsPatterns/pairSum.js" beforeDir="false" afterPath="$PROJECT_DIR$/problemsPatterns/pairSum.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1171097643120554E-31" />
-      <entry key="MS500" value="6.590108683778633E-7" />
-      <entry key="S2" value="0.039202837521150107" />
-      <entry key="S5" value="0.40512349737198705" />
-      <entry key="S10" value="0.9351004672184023" />
-      <entry key="S30" value="2.5758547804310252" />
-      <entry key="S60" value="6.121654288064369" />
-      <entry key="M2" value="13.50171333667868" />
-      <entry key="M5" value="36.116183269065665" />
-      <entry key="M10" value="68.10617452293965" />
-      <entry key="M15" value="91.22027242578216" />
-      <entry key="M30" value="134.37638597647498" />
-      <entry key="H1" value="180.31823477625278" />
-      <entry key="H2" value="222.43332207217932" />
-      <entry key="H4" value="253.40161055484873" />
-      <entry key="D1" value="287.1439905304225" />
-      <entry key="W1" value="293.8521765143252" />
+      <entry key="MS100" value="1.0351580776465252" />
+      <entry key="MS500" value="1.5119234502142211" />
+      <entry key="S2" value="1.8458653911890806" />
+      <entry key="S5" value="1.9352344638605956" />
+      <entry key="S10" value="1.96707525020756" />
+      <entry key="S30" value="2.0036592805345075" />
+      <entry key="S60" value="2.469811756124261" />
+      <entry key="M2" value="5.061734151582493" />
+      <entry key="M5" value="12.603422878382444" />
+      <entry key="M10" value="21.797418647211032" />
+      <entry key="M15" value="28.939311188212937" />
+      <entry key="M30" value="41.73478990194274" />
+      <entry key="H1" value="54.324660847570634" />
+      <entry key="H2" value="88.26690956575283" />
+      <entry key="H4" value="172.83434669090204" />
+      <entry key="D1" value="471.9141150008393" />
+      <entry key="W1" value="905.9913509104274" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000032300770278" />
-      <entry key="S5" value="1.0063634744861414" />
-      <entry key="S10" value="1.0802894501882925" />
-      <entry key="S30" value="1.5833644617127607" />
-      <entry key="S60" value="2.397322889896416" />
-      <entry key="M2" value="3.7522823347194096" />
-      <entry key="M5" value="6.905863154487" />
-      <entry key="M10" value="10.208914100135331" />
-      <entry key="M15" value="12.263112109794823" />
-      <entry key="M30" value="15.679100620349033" />
-      <entry key="H1" value="18.941758517583256" />
-      <entry key="H2" value="21.8602648796223" />
-      <entry key="H4" value="24.03047986906131" />
-      <entry key="D1" value="26.434184419549034" />
-      <entry key="W1" value="26.917184840952043" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.818723985974474E-154" />
+      <entry key="S2" value="3.672330695951112E-39" />
+      <entry key="S5" value="4.235441759409273E-16" />
+      <entry key="S10" value="2.1717023890846705E-8" />
+      <entry key="S30" value="0.004846529542949938" />
+      <entry key="S60" value="0.14585890757428427" />
+      <entry key="M2" value="0.9206952009267083" />
+      <entry key="M5" value="4.082714542084114" />
+      <entry key="M10" value="9.471295654054003" />
+      <entry key="M15" value="13.496494582069133" />
+      <entry key="M30" value="20.0434705141282" />
+      <entry key="H1" value="25.31150109069321" />
+      <entry key="H2" value="33.41327370196286" />
+      <entry key="H4" value="49.33572514092722" />
+      <entry key="D1" value="100.01960694883532" />
+      <entry key="W1" value="158.28336940460022" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0010251139488506517" />
-      <entry key="MS500" value="0.2524379136775757" />
-      <entry key="S2" value="0.7336078338192529" />
-      <entry key="S5" value="1.2166440455669796" />
-      <entry key="S10" value="1.8600104139493217" />
-      <entry key="S30" value="4.0076651186188235" />
-      <entry key="S60" value="8.369641701818589" />
-      <entry key="M2" value="17.11638877127899" />
-      <entry key="M5" value="42.901066661161465" />
-      <entry key="M10" value="78.21120987420346" />
-      <entry key="M15" value="103.3917962453892" />
-      <entry key="M30" value="149.9878518183107" />
-      <entry key="H1" value="199.2150438335068" />
-      <entry key="H2" value="244.26638986837176" />
-      <entry key="H4" value="277.41684302992235" />
-      <entry key="D1" value="313.57534435112393" />
-      <entry key="W1" value="320.76894890956305" />
+      <entry key="MS100" value="0.4488281229772807" />
+      <entry key="MS500" value="1.2501241501041056" />
+      <entry key="S2" value="1.755960682257191" />
+      <entry key="S5" value="1.8965835186068947" />
+      <entry key="S10" value="1.9472671327179358" />
+      <entry key="S30" value="2.001264774757291" />
+      <entry key="S60" value="2.604042451335378" />
+      <entry key="M2" value="5.955026421130732" />
+      <entry key="M5" value="16.647123268163867" />
+      <entry key="M10" value="31.22944928452497" />
+      <entry key="M15" value="42.399745493595454" />
+      <entry key="M30" value="61.751881769482885" />
+      <entry key="H1" value="79.61918443427798" />
+      <entry key="H2" value="121.66748322459992" />
+      <entry key="H4" value="222.1590176545722" />
+      <entry key="D1" value="571.9292291866481" />
+      <entry key="W1" value="1064.273524324612" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,16 +112,27 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.Capitalize.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.FIzzBuzz.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.MaxProfit.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Palindrome.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.arraychuncks.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.customArray.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.ex.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.helper.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ll.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.pairSum.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.reverseAString.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FEETCODE/dsa_learning&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -126,7 +140,8 @@
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/FEETCODE/dsa_learning/src/main.js&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/FEETCODE/dsa_learning/src/main.js&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -148,7 +163,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790682858466</updated>
-      <workItem from="1790682858470" duration="16946000" />
+      <workItem from="1790682858470" duration="29839000" />
+      <workItem from="1791463404116" duration="590000" />
+      <workItem from="1791464022142" duration="15158000" />
+      <workItem from="1791801878825" duration="7963000" />
+      <workItem from="1792053496003" duration="7360000" />
     </task>
     <task id="LOCAL-00001" summary="Patterns in DSA">
       <option name="closed" value="true" />
@@ -158,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790683670300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Patterns in DSA&#10;array custom array methods&#10;reverse a string">
+      <option name="closed" value="true" />
+      <created>1790791167795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790791167795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Patterns in DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patterns in DSA" />
+    <MESSAGE value="Patterns in DSA&#10;array custom array methods&#10;reverse a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patterns in DSA&#10;array custom array methods&#10;reverse a string" />
   </component>
 </project>
